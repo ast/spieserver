@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B126431E239B8C110092B006 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B126431D239B8C110092B006 /* main.c */; };
+		B126432D239D0B8E0092B006 /* fir.c in Sources */ = {isa = PBXBuildFile; fileRef = B126432C239D0B8E0092B006 /* fir.c */; };
+		B1264330239D0C7E0092B006 /* dsp.c in Sources */ = {isa = PBXBuildFile; fileRef = B126432F239D0C7E0092B006 /* dsp.c */; };
+		B1264333239D18EF0092B006 /* ssb_demod.c in Sources */ = {isa = PBXBuildFile; fileRef = B1264332239D18EF0092B006 /* ssb_demod.c */; };
+		B1264336239D19720092B006 /* agc.c in Sources */ = {isa = PBXBuildFile; fileRef = B1264335239D19720092B006 /* agc.c */; };
+		B1264339239D4DFA0092B006 /* doublemap.c in Sources */ = {isa = PBXBuildFile; fileRef = B1264338239D4DFA0092B006 /* doublemap.c */; };
+		B126433C239D4EC40092B006 /* ringbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = B126433B239D4EC40092B006 /* ringbuffer.c */; };
+		B1264341239D57730092B006 /* spectrum.c in Sources */ = {isa = PBXBuildFile; fileRef = B1264340239D57730092B006 /* spectrum.c */; };
+		B1357B4423A35B0C00AB8957 /* fft_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = B1357B4323A35B0C00AB8957 /* fft_filter.c */; };
+		B1357B4923A3B90F00AB8957 /* fft_xlating.c in Sources */ = {isa = PBXBuildFile; fileRef = B1357B4823A3B90F00AB8957 /* fft_xlating.c */; };
+		B1357B4E23A4E89A00AB8957 /* collect.c in Sources */ = {isa = PBXBuildFile; fileRef = B1357B4D23A4E89A00AB8957 /* collect.c */; };
+		B1DC91F323A276CE00534A7F /* rtp.c in Sources */ = {isa = PBXBuildFile; fileRef = B1DC91F223A276CE00534A7F /* rtp.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1264318239B8C110092B006 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B126431A239B8C110092B006 /* spieserver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = spieserver; sourceTree = BUILT_PRODUCTS_DIR; };
+		B126431D239B8C110092B006 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B126432A239CFE780092B006 /* meson.build */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson.build; sourceTree = "<group>"; };
+		B126432B239D0B8E0092B006 /* fir.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fir.h; sourceTree = "<group>"; };
+		B126432C239D0B8E0092B006 /* fir.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fir.c; sourceTree = "<group>"; };
+		B126432E239D0C7E0092B006 /* dsp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dsp.h; sourceTree = "<group>"; };
+		B126432F239D0C7E0092B006 /* dsp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsp.c; sourceTree = "<group>"; };
+		B1264331239D18EF0092B006 /* ssb_demod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssb_demod.h; sourceTree = "<group>"; };
+		B1264332239D18EF0092B006 /* ssb_demod.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssb_demod.c; sourceTree = "<group>"; };
+		B1264334239D19720092B006 /* agc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = agc.h; sourceTree = "<group>"; };
+		B1264335239D19720092B006 /* agc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = agc.c; sourceTree = "<group>"; };
+		B1264337239D4DFA0092B006 /* doublemap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = doublemap.h; sourceTree = "<group>"; };
+		B1264338239D4DFA0092B006 /* doublemap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = doublemap.c; sourceTree = "<group>"; };
+		B126433A239D4EC40092B006 /* ringbuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ringbuffer.h; sourceTree = "<group>"; };
+		B126433B239D4EC40092B006 /* ringbuffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ringbuffer.c; sourceTree = "<group>"; };
+		B126433F239D57730092B006 /* spectrum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spectrum.h; sourceTree = "<group>"; };
+		B1264340239D57730092B006 /* spectrum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = spectrum.c; sourceTree = "<group>"; };
+		B1357B4223A35B0C00AB8957 /* fft_filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fft_filter.h; sourceTree = "<group>"; };
+		B1357B4323A35B0C00AB8957 /* fft_filter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fft_filter.c; sourceTree = "<group>"; };
+		B1357B4723A3B90F00AB8957 /* fft_xlating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fft_xlating.h; sourceTree = "<group>"; };
+		B1357B4823A3B90F00AB8957 /* fft_xlating.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fft_xlating.c; sourceTree = "<group>"; };
+		B1357B4C23A4E89A00AB8957 /* collect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collect.h; sourceTree = "<group>"; };
+		B1357B4D23A4E89A00AB8957 /* collect.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = collect.c; sourceTree = "<group>"; };
+		B1357B4F23A4ECB200AB8957 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		B1DC91F123A276CE00534A7F /* rtp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rtp.h; sourceTree = "<group>"; };
+		B1DC91F223A276CE00534A7F /* rtp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rtp.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1264317239B8C110092B006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1264311239B8C110092B006 = {
+			isa = PBXGroup;
+			children = (
+				B126431C239B8C110092B006 /* spieserver */,
+				B126431B239B8C110092B006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B126431B239B8C110092B006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B126431A239B8C110092B006 /* spieserver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B126431C239B8C110092B006 /* spieserver */ = {
+			isa = PBXGroup;
+			children = (
+				B1357B4F23A4ECB200AB8957 /* README.md */,
+				B1357B4B23A4E88B00AB8957 /* collect */,
+				B1357B4A23A3BCE700AB8957 /* fir */,
+				B1357B4123A35ADF00AB8957 /* fft_filter */,
+				B1357B4623A3B8E700AB8957 /* fft_xlating_filter */,
+				B126433E239D573B0092B006 /* spectrum */,
+				B126432A239CFE780092B006 /* meson.build */,
+				B126433D239D4ECC0092B006 /* ringbuffer */,
+				B126431D239B8C110092B006 /* main.c */,
+				B126432E239D0C7E0092B006 /* dsp.h */,
+				B126432F239D0C7E0092B006 /* dsp.c */,
+				B1264331239D18EF0092B006 /* ssb_demod.h */,
+				B1264332239D18EF0092B006 /* ssb_demod.c */,
+				B1264334239D19720092B006 /* agc.h */,
+				B1264335239D19720092B006 /* agc.c */,
+				B1DC91F123A276CE00534A7F /* rtp.h */,
+				B1DC91F223A276CE00534A7F /* rtp.c */,
+			);
+			path = spieserver;
+			sourceTree = "<group>";
+		};
+		B126433D239D4ECC0092B006 /* ringbuffer */ = {
+			isa = PBXGroup;
+			children = (
+				B1264337239D4DFA0092B006 /* doublemap.h */,
+				B1264338239D4DFA0092B006 /* doublemap.c */,
+				B126433A239D4EC40092B006 /* ringbuffer.h */,
+				B126433B239D4EC40092B006 /* ringbuffer.c */,
+			);
+			name = ringbuffer;
+			sourceTree = "<group>";
+		};
+		B126433E239D573B0092B006 /* spectrum */ = {
+			isa = PBXGroup;
+			children = (
+				B126433F239D57730092B006 /* spectrum.h */,
+				B1264340239D57730092B006 /* spectrum.c */,
+			);
+			name = spectrum;
+			sourceTree = "<group>";
+		};
+		B1357B4123A35ADF00AB8957 /* fft_filter */ = {
+			isa = PBXGroup;
+			children = (
+				B1357B4223A35B0C00AB8957 /* fft_filter.h */,
+				B1357B4323A35B0C00AB8957 /* fft_filter.c */,
+			);
+			name = fft_filter;
+			sourceTree = "<group>";
+		};
+		B1357B4623A3B8E700AB8957 /* fft_xlating_filter */ = {
+			isa = PBXGroup;
+			children = (
+				B1357B4723A3B90F00AB8957 /* fft_xlating.h */,
+				B1357B4823A3B90F00AB8957 /* fft_xlating.c */,
+			);
+			name = fft_xlating_filter;
+			sourceTree = "<group>";
+		};
+		B1357B4A23A3BCE700AB8957 /* fir */ = {
+			isa = PBXGroup;
+			children = (
+				B126432B239D0B8E0092B006 /* fir.h */,
+				B126432C239D0B8E0092B006 /* fir.c */,
+			);
+			name = fir;
+			sourceTree = "<group>";
+		};
+		B1357B4B23A4E88B00AB8957 /* collect */ = {
+			isa = PBXGroup;
+			children = (
+				B1357B4C23A4E89A00AB8957 /* collect.h */,
+				B1357B4D23A4E89A00AB8957 /* collect.c */,
+			);
+			name = collect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1264319239B8C110092B006 /* spieserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1264321239B8C110092B006 /* Build configuration list for PBXNativeTarget "spieserver" */;
+			buildPhases = (
+				B1264316239B8C110092B006 /* Sources */,
+				B1264317239B8C110092B006 /* Frameworks */,
+				B1264318239B8C110092B006 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spieserver;
+			productName = spieserver;
+			productReference = B126431A239B8C110092B006 /* spieserver */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1264312239B8C110092B006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Albin Stigo";
+				TargetAttributes = {
+					B1264319239B8C110092B006 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B1264315239B8C110092B006 /* Build configuration list for PBXProject "spieserver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1264311239B8C110092B006;
+			productRefGroup = B126431B239B8C110092B006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1264319239B8C110092B006 /* spieserver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1264316239B8C110092B006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1357B4E23A4E89A00AB8957 /* collect.c in Sources */,
+				B1DC91F323A276CE00534A7F /* rtp.c in Sources */,
+				B126432D239D0B8E0092B006 /* fir.c in Sources */,
+				B1264339239D4DFA0092B006 /* doublemap.c in Sources */,
+				B1264333239D18EF0092B006 /* ssb_demod.c in Sources */,
+				B1264341239D57730092B006 /* spectrum.c in Sources */,
+				B1264330239D0C7E0092B006 /* dsp.c in Sources */,
+				B1264336239D19720092B006 /* agc.c in Sources */,
+				B126431E239B8C110092B006 /* main.c in Sources */,
+				B1357B4923A3B90F00AB8957 /* fft_xlating.c in Sources */,
+				B1357B4423A35B0C00AB8957 /* fft_filter.c in Sources */,
+				B126433C239D4EC40092B006 /* ringbuffer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B126431F239B8C110092B006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B1264320239B8C110092B006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B1264322239B8C110092B006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_CFLAGS = (
+					"-I/usr/local/Cellar/fftw/3.3.8_1/include",
+					"-I/usr/local/include/libairspyhf/",
+					"-I/usr/local/Cellar/libusb/1.0.22/include/libusb-1.0",
+					"-I/usr/local/include",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/Cellar/fftw/3.3.8_1/lib",
+					"-L/usr/local/lib",
+					"-lfftw3f",
+					"-lairspyhf",
+					"-lvolk",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1264323239B8C110092B006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_CFLAGS = (
+					"-I/usr/local/Cellar/fftw/3.3.8_1/include",
+					"-I/usr/local/include/libairspyhf/",
+					"-I/usr/local/Cellar/libusb/1.0.22/include/libusb-1.0",
+					"-I/usr/local/include",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/Cellar/fftw/3.3.8_1/lib",
+					"-L/usr/local/lib",
+					"-lfftw3f",
+					"-lairspyhf",
+					"-lvolk",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1264315239B8C110092B006 /* Build configuration list for PBXProject "spieserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B126431F239B8C110092B006 /* Debug */,
+				B1264320239B8C110092B006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1264321239B8C110092B006 /* Build configuration list for PBXNativeTarget "spieserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1264322239B8C110092B006 /* Debug */,
+				B1264323239B8C110092B006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1264312239B8C110092B006 /* Project object */;
+}
